@@ -1,0 +1,95 @@
+Q1)  Differences between JDK, JRE and JVM?
+JVM
+JVM is the abbreviation for Java virtual machine which is basically specification that provides
+ a runtime environment in which Java byte code can be executed i.e it is something which is abstract and 
+its implementation is independent to choose the algorithm and has been provided by Sun and other companies.
+ It is JVM which is responsible for converting Byte code to the machine specific code. It can also run 
+those programs which are written in other languages and compiled to Java bytecode.The JVM performs the
+ mentioned tasks: Loads code, Verifies code, Executes code, Provides runtime environment.
+
+
+JRE
+JRE is Java runtime environment which is the implementation of JVM i.e the specifications which are
+ defined in JVM are implemented and creates corresponding environment for the execution of code.
+JRE comprises mainly java binaries and other classes to execute the program alike of JVM it 
+physically exists. Along with Java binaries JRE also consist of various technologies of deployment, 
+user interfaces to interact with code executed, some base libraries for different functionalities 
+and language and util based libraries.
+
+JDK
+JDK is abbreviation for Java Development Kit which includes all the tools, executable and 
+binaries required to compile, debug and execute a Java Program.JDK is platform dependent i.e there 
+is separate installers for Windows, Mac, and Unix systems.JDK includes both JVM and JRE and is entirely 
+responsible for code execution. It is the version of JDK which represent version of Java. 
+
+Q2) Write the difference between JSE, JEE and JME?
+
+Java SE : java standard edition, JSE. It allows the development and deployment of java applications
+ used in desktops, servers, embedded environments and real-time environments. java SE contains classes
+ developed for java web services and provides a foundation for java platform and enterprise edition (JEE).
+
+
+Java EE : java enterprise edition, JEE. Enterprise Edition helps develop and deploy portable, robust,
+ scalable and secure server-side java applications. Java EE is built on the basis of java SE. It provides
+ Web services, component models, management and communication APIs, which can be used To achieve enterprise-level
+ service-oriented architecture (service oriented architecture, SOA) and Web 2.0 applications.
+
+
+Java ME : java mirco edition, JME. Provide a robust and flexible environment for applications running on mobile
+ devices and embedded devices (such as mobile phones, PDAs, TV set-top boxes, and printers). Java ME includes a
+ flexible user interface, a robust security model, many built-in network protocols, and rich support for networked 
+and offline applications that can be downloaded dynamically. Applications based on the Java ME specification only need 
+to be written once and can be used for many devices, and can take advantage of the native functions of each device.
+
+To put it more simply:
+
+Java SE is a software that runs on a computer; it contains the core classes of the Java language, such
+ as: database link, interface definition, input and output, network programming
+
+Java EE is for website (JSP); enterprise-level, such as: EJB, servlet, JSP, xml, transaction control;
+
+Java ME is for mobile phone software;
+
+Q3) How does java achieve platform independency?
+ 
+
+A platform is a hardware or software environment in which a program runs. In general,
+ it can be described as a combination of operating system and the underlying hardware.
+ Some of the most popular platforms are Windows, Mac, Linux etc.,
+
+A java platform differs from most other platforms in that its a software only platform 
+that runs on other hardware based platforms.
+
+The java platform consists of two components:
+
+1)      Java Virtual Machine (JVM)
+
+2)      Application programming interface (API)
+
+Q4) What are features of Java and explain them?
+
+Simple:- Java is easy to learn and its syntax is quite simple, clean and easy to
+understand.
+
+Object-Oriented:- Java is object-oriented, it supports all the OOPS characteristics.
+ This makes java applications easy to develop and maintain, compared to structured programming language.
+
+Portable and Platform Independent:- Java source code is compiled and converted into bytecode.
+ this bytecode can run on multiple platforms i.e. Write Once and Run Anywhere(WORA), 
+we can compile the java code in one Operating  System and execute it on another Operating System.
+
+Secure:- JAVA has provided an implicit component inside JVM in the form of a
+“Security Manager”  to provide implicit security against malicious code. Java has
+provided very good predefined implementations for almost all well-known network
+security. JAVA has provided a separate middleware service in JAAS [Java
+Authentication and Authorization Service], which provides web security. Auth, SSO.
+
+Robust:- Robust means strong. Java is having a very good memory management
+system in the form of a heap memory management system, it is a dynamic memory
+management system, it allocates and deallocates memory for the objects at
+runtime. JAVA is having very good Exception Handling mechanisms, because, Java
+has provided a very good predefined library to represent and handle almost all the
+frequently generated exceptions in java applications.
+
+Multithreaded:- Java supports multithreading to enhance performance. by using
+this we can execute multiple functionalities simultaneously.
